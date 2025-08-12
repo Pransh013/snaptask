@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/Pransh013/go-boilerplate/internal/server"
+	"github.com/Pransh013/snaptask/internal/server"
 )
 
 type RateLimitMiddleware struct {

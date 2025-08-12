@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/Pransh013/go-boilerplate/internal/server"
-	"github.com/Pransh013/go-boilerplate/internal/service"
+	"github.com/Pransh013/snaptask/internal/server"
+	"github.com/Pransh013/snaptask/internal/service"
 )
 
 type Handlers struct {

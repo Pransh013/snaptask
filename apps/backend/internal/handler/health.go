@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Pransh013/go-boilerplate/internal/middleware"
-	"github.com/Pransh013/go-boilerplate/internal/server"
+	"github.com/Pransh013/snaptask/internal/middleware"
+	"github.com/Pransh013/snaptask/internal/server"
 
 	"github.com/labstack/echo/v4"
 )

@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/Pransh013/go-boilerplate/internal/server"
+import "github.com/Pransh013/snaptask/internal/server"
 
 type Repositories struct{}
 

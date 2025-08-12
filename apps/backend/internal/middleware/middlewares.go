@@ -1,8 +1,8 @@
 package middleware
 
 import (
+	"github.com/Pransh013/snaptask/internal/server"
 	"github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/Pransh013/go-boilerplate/internal/server"
 )
 
 type Middlewares struct {

@@ -1,4 +1,4 @@
-module github.com/Pransh013/go-boilerplate
+module github.com/Pransh013/snaptask
 
 go 1.24.5
 

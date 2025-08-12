@@ -3,12 +3,12 @@ package router
 import (
 	"net/http"
 
+	"github.com/Pransh013/snaptask/internal/handler"
+	"github.com/Pransh013/snaptask/internal/middleware"
+	"github.com/Pransh013/snaptask/internal/server"
+	"github.com/Pransh013/snaptask/internal/service"
 	"github.com/labstack/echo/v4"
 	echoMiddleware "github.com/labstack/echo/v4/middleware"
-	"github.com/Pransh013/go-boilerplate/internal/handler"
-	"github.com/Pransh013/go-boilerplate/internal/middleware"
-	"github.com/Pransh013/go-boilerplate/internal/server"
-	"github.com/Pransh013/go-boilerplate/internal/service"
 	"golang.org/x/time/rate"
 )
 

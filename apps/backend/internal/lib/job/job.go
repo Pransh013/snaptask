@@ -1,9 +1,9 @@
 package job
 
 import (
+	"github.com/Pransh013/snaptask/internal/config"
 	"github.com/hibiken/asynq"
 	"github.com/rs/zerolog"
-	"github.com/Pransh013/go-boilerplate/internal/config"
 )
 
 type JobService struct {

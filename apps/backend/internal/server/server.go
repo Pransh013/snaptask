@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/Pransh013/snaptask/internal/config"
+	"github.com/Pransh013/snaptask/internal/database"
+	"github.com/Pransh013/snaptask/internal/lib/job"
+	loggerPkg "github.com/Pransh013/snaptask/internal/logger"
 	"github.com/newrelic/go-agent/v3/integrations/nrredis-v9"
 	"github.com/redis/go-redis/v9"
 	"github.com/rs/zerolog"
-	"github.com/Pransh013/go-boilerplate/internal/config"
-	"github.com/Pransh013/go-boilerplate/internal/database"
-	"github.com/Pransh013/go-boilerplate/internal/lib/job"
-	loggerPkg "github.com/Pransh013/go-boilerplate/internal/logger"
 )
 
 type Server struct {

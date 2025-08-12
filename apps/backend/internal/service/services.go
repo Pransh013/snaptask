@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/Pransh013/go-boilerplate/internal/lib/job"
-	"github.com/Pransh013/go-boilerplate/internal/repository"
-	"github.com/Pransh013/go-boilerplate/internal/server"
+	"github.com/Pransh013/snaptask/internal/lib/job"
+	"github.com/Pransh013/snaptask/internal/repository"
+	"github.com/Pransh013/snaptask/internal/server"
 )
 
 type Services struct {

@@ -3,13 +3,13 @@ package middleware
 import (
 	"net/http"
 
+	"github.com/Pransh013/snaptask/internal/errs"
+	"github.com/Pransh013/snaptask/internal/server"
+	"github.com/Pransh013/snaptask/internal/sqlerr"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
-	"github.com/Pransh013/go-boilerplate/internal/errs"
-	"github.com/Pransh013/go-boilerplate/internal/server"
-	"github.com/Pransh013/go-boilerplate/internal/sqlerr"
 )
 
 type GlobalMiddlewares struct {

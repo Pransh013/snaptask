@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/Pransh013/snaptask/internal/config"
+	"github.com/Pransh013/snaptask/internal/lib/email"
 	"github.com/hibiken/asynq"
 	"github.com/rs/zerolog"
-	"github.com/Pransh013/go-boilerplate/internal/config"
-	"github.com/Pransh013/go-boilerplate/internal/lib/email"
 )
 
 var emailClient *email.Client

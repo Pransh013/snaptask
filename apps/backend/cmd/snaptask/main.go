@@ -8,14 +8,14 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/Pransh013/go-boilerplate/internal/config"
-	"github.com/Pransh013/go-boilerplate/internal/database"
-	"github.com/Pransh013/go-boilerplate/internal/handler"
-	"github.com/Pransh013/go-boilerplate/internal/logger"
-	"github.com/Pransh013/go-boilerplate/internal/repository"
-	"github.com/Pransh013/go-boilerplate/internal/router"
-	"github.com/Pransh013/go-boilerplate/internal/server"
-	"github.com/Pransh013/go-boilerplate/internal/service"
+	"github.com/Pransh013/snaptask/internal/config"
+	"github.com/Pransh013/snaptask/internal/database"
+	"github.com/Pransh013/snaptask/internal/handler"
+	"github.com/Pransh013/snaptask/internal/logger"
+	"github.com/Pransh013/snaptask/internal/repository"
+	"github.com/Pransh013/snaptask/internal/router"
+	"github.com/Pransh013/snaptask/internal/server"
+	"github.com/Pransh013/snaptask/internal/service"
 )
 
 const DefaultContextTimeout = 30

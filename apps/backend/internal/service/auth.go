@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/Pransh013/go-boilerplate/internal/server"
+	"github.com/Pransh013/snaptask/internal/server"
 
 	"github.com/clerk/clerk-sdk-go/v2"
 )

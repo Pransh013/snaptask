@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/Pransh013/snaptask/internal/server"
 	"github.com/rs/zerolog"
-	"github.com/Pransh013/go-boilerplate/internal/server"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/Pransh013/go-boilerplate/internal/server"
+	"github.com/Pransh013/snaptask/internal/server"
 
 	"github.com/labstack/echo/v4"
 )
