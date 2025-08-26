@@ -4,6 +4,8 @@ import (
 	"time"
 
 	"github.com/Pransh013/snaptask/internal/model"
+	"github.com/Pransh013/snaptask/internal/model/category"
+	"github.com/Pransh013/snaptask/internal/model/comment"
 	"github.com/google/uuid"
 )
 
@@ -44,4 +46,20 @@ type Metadata struct {
 	Reminder   *string  `json:"reminder"`
 	Color      *string  `json:"color"`
 	Difficulty *int     `json:"difficulty"`
+}
+
+type PopulatedTodo struct {
+	Todo
+	Category *category.Category `json:"category" db:"category"`
+	Children []Todo             `json:"children" db:"children"`
+	Comments []comment.Comment  `json:"comments" db:"comments"`
+}
+
+type TodoStats struct {
+	Total     int `json:"total"`
+	Draft     int `json:"draft"`
+	Active    int `json:"active"`
+	Completed int `json:"completed"`
+	Archived  int `json:"archived"`
+	Overdue   int `json:"overdue"`
 }

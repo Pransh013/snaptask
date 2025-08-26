@@ -1,6 +1,6 @@
-# Go Snaptask
+# Snaptask
 
-A production-ready monorepo template for building scalable web applications with Go backend and TypeScript frontend. Built with modern best practices, clean architecture, and comprehensive tooling.
+A task management with `Go` backend and `TypeScript` frontend. Built with modern best practices, clean architecture, and comprehensive tooling.
 
 ## Features
 
@@ -20,6 +20,7 @@ A production-ready monorepo template for building scalable web applications with
 ```
 snaptask/
 ├── apps/backend/     # Go backend application
+├── apps/frontend/    # Typescript frontend application
 ├── packages/         # Frontend packages (React, Vue, etc.)
 ├── package.json      # Monorepo configuration
 ├── turbo.json        # Turborepo configuration
