@@ -2,7 +2,6 @@ package router
 
 import (
 	"github.com/Pransh013/snaptask/internal/handler"
-
 	"github.com/labstack/echo/v4"
 )
 

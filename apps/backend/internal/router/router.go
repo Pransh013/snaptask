@@ -5,6 +5,7 @@ import (
 
 	"github.com/Pransh013/snaptask/internal/handler"
 	"github.com/Pransh013/snaptask/internal/middleware"
+	v1 "github.com/Pransh013/snaptask/internal/router/v1"
 	"github.com/Pransh013/snaptask/internal/server"
 	"github.com/Pransh013/snaptask/internal/service"
 	"github.com/labstack/echo/v4"
@@ -54,7 +55,9 @@ func NewRouter(s *server.Server, h *handler.Handlers, services *service.Services
 	registerSystemRoutes(router, h)
 
 	// register versioned routes
-	router.Group("/api/v1")
+	v1Router := router.Group("/api/v1")
+
+	v1.RegisterV1Routes(v1Router, h, middlewares)
 
 	return router
 }
